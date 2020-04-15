@@ -20,46 +20,46 @@ author: SnakeSon
 
 ```
 
-spencer@spencer-it1 MINGW64 /f/myself/xionhong.github.io (master)
+spencer@spencer-it1 MINGW64 /f/myself/xionhung.github.io (master)
 $ gem install jekyll
 Successfully installed jekyll-3.6.2
 Parsing documentation for jekyll-3.6.2
 Done installing documentation for jekyll after 2 seconds
 1 gem installed
 
-spencer@spencer-it1 MINGW64 /f/myself/xionhong.github.io (master)
+spencer@spencer-it1 MINGW64 /f/myself/xionhung.github.io (master)
 $ jekyll s
-Configuration file: F:/myself/xionhong.github.io/_config.yml
-            Source: F:/myself/xionhong.github.io
-       Destination: F:/myself/xionhong.github.io/_site
+Configuration file: F:/myself/xionhung.github.io/_config.yml
+            Source: F:/myself/xionhung.github.io
+       Destination: F:/myself/xionhung.github.io/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
                     done in 5.499 seconds.
   Please add the following to your Gemfile to avoid polling for changes:
     gem 'wdm', '>= 0.1.0' if Gem.win_platform?
- Auto-regeneration: enabled for 'F:/myself/xionhong.github.io'
+ Auto-regeneration: enabled for 'F:/myself/xionhung.github.io'
     Server address: http://127.0.0.1:4001/
   Server running... press ctrl-c to stop.
 
 
-spencer@spencer-it1 MINGW64 /f/myself/xionhong.github.io (master)
+spencer@spencer-it1 MINGW64 /f/myself/xionhung.github.io (master)
 $ jekyll serve
-Configuration file: F:/myself/xionhong.github.io/_config.yml
-            Source: F:/myself/xionhong.github.io
-       Destination: F:/myself/xionhong.github.io/_site
+Configuration file: F:/myself/xionhung.github.io/_config.yml
+            Source: F:/myself/xionhung.github.io
+       Destination: F:/myself/xionhung.github.io/_site
  Incremental build: disabled. Enable with --incremental
       Generating...
                     done in 2.859 seconds.
   Please add the following to your Gemfile to avoid polling for changes:
     gem 'wdm', '>= 0.1.0' if Gem.win_platform?
- Auto-regeneration: enabled for 'F:/myself/xionhong.github.io'
+ Auto-regeneration: enabled for 'F:/myself/xionhung.github.io'
     Server address: http://127.0.0.1:4001/
   Server running... press ctrl-c to stop.
 
 ```
 
 主要进行了以上操作：
-cd xionhong.github.io  文件夹下
+cd xionhung.github.io  文件夹下
 
 执行命令：
 

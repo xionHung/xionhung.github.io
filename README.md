@@ -1,13 +1,13 @@
 # 关于这个项目的说明
 
-[![GitHub stars](https://img.shields.io/github/stars/xionHung/xionhong.github.io.svg)](https://github.com/xionHung/xionhong.github.io/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/xionHung/xionhong.github.io.svg)](https://github.com/xionHung/xionhong.github.io/network)
-[![GitHub issues](https://img.shields.io/github/issues/xionHung/xionhong.github.io.svg)](https://github.com/xionHung/xionhong.github.io/issues)
-[![GitHub release](https://img.shields.io/github/release/xionHung/xionhong.github.io.svg)](https://github.com/xionHung/xionhong.github.io/releases)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/xionHung/xionhong.github.io/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/xionHung/xionhung.github.io.svg)](https://github.com/xionHung/xionhung.github.io/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/xionHung/xionhung.github.io.svg)](https://github.com/xionHung/xionhung.github.io/network)
+[![GitHub issues](https://img.shields.io/github/issues/xionHung/xionhung.github.io.svg)](https://github.com/xionHung/xionhung.github.io/issues)
+[![GitHub release](https://img.shields.io/github/release/xionHung/xionhung.github.io.svg)](https://github.com/xionHung/xionhung.github.io/releases)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/xionHung/xionhung.github.io/master/LICENSE)
 
 
-**博客访问地址：[http://xionhong.github.io/](http://xionhong.github.io/)**。
+**博客访问地址：[http://xionhung.github.io/](http://xionhung.github.io/)**。
 
 ## 目录
 
@@ -171,7 +171,7 @@ gem install jekyll
 title: xionHong技术专栏
 brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://xionhong.github.io" # the base hostname & protocol for your site
+url: "http://xionhung.github.io" # the base hostname & protocol for your site
 ```
 
 #### 链接信息
@@ -282,7 +282,7 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
 
 在本地访问 localhost:4000 即可看到博客主页。
 
-若安装了 Foxit 福昕 pdf 阅读器可能会占用 4000 端口，关闭 Foxit 服务 或切换 jekyll 端口即可解决。详情见文章：[对这个 jekyll 博客主题的改版和重构](http://xionhong.github.io/2016/03/12/jekyll-theme-version-2.0/)
+若安装了 Foxit 福昕 pdf 阅读器可能会占用 4000 端口，关闭 Foxit 服务 或切换 jekyll 端口即可解决。详情见文章：[对这个 jekyll 博客主题的改版和重构](http://xionhung.github.io/2016/03/12/jekyll-theme-version-2.0/)
 
 若正在使用全局代理，可能会报错 502，关闭全局代理即可。
 

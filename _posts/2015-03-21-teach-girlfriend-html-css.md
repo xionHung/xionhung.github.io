@@ -33,7 +33,7 @@ She seems to enjoy Web Pages Design. Though she used to be a Graphic Designer. A
 
 At last I'll show the works that we did together in 2 hours. It's unfinished. I guess she will do it later. It's a nice weekend, isn't it?   
 
-[to see Copy Zhihu, click here](http://xionhong.github.io/test/bootstrap-zhihu/)   
+[to see Copy Zhihu, click here](http://xionhung.github.io/test/bootstrap-zhihu/)   
 
 screenshot of copy Zhihu:
 ![Copy Zhihu](http://7q5cdt.com1.z0.glb.clouddn.com/teach-girlfriend-html-CopyZhihu.jpg)

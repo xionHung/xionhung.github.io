@@ -84,7 +84,7 @@ tags: JavaScript Ajax URL HistoryApi pushState pjax
 
     `length`为history的属性，显示history长度。
 
-本节在线demo见：[History & pjax demo](http://xionhong.github.io/history-pjax-demo/) 源代码：[]()
+本节在线demo见：[History & pjax demo](http://xionhung.github.io/history-pjax-demo/) 源代码：[]()
 
 **经过亲自测试，`history`对象只记录同一个 tab 页内的历史。如果是在新窗口打开的，则无效。如：在a标签中添加`target="_blank"`，或按住`ctrl`点击，这类场景下，在新的tab页中，`history`对象也是新的。**
 
@@ -120,7 +120,7 @@ HTML5 引进了`history.pushState()`方法和`history.replaceState()`方法，�
 
 **需要注意的是：**`pushState()`和`replaceState()`方法存在安全方面的限制，本地测试是无效的，会报错，可以简单放到任何服务端测试，或者使用`http-server`开启简单服务器，通过访问`localhost`来查看效果。
 
-本节demo见：[History & pjax demo - pushState](http://xionhong.github.io/history-pjax-demo/index.html)
+本节demo见：[History & pjax demo - pushState](http://xionhung.github.io/history-pjax-demo/index.html)
 
 ## pjax
 

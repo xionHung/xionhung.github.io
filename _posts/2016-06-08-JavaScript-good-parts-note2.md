@@ -120,7 +120,7 @@ console.log(myMammal.getName()) //Herb
 console.log(myMammal.says()) //Cheers!
 ```
 
-也可以参考上一篇文章，[JavaScript 语言精粹笔记1-语法、对象、函数 之模块部分](http://xionhong.github.io/2016/06/07/JavaScript-good-parts-note1/#section-34)。
+也可以参考上一篇文章，[JavaScript 语言精粹笔记1-语法、对象、函数 之模块部分](http://xionhung.github.io/2016/06/07/JavaScript-good-parts-note1/#section-34)。
 
 ### 部件
 
@@ -212,8 +212,8 @@ console.log(matrix[1][2]) //6
 
 关于正则表达式，以前的博文写的比较多了，详情见：
 
-[百度Web前端技术学院(2)-JavaScript 基础 之正则表达式部分1](http://xionhong.github.io/2015/04/22/baidu-ife-2-javascript/#section-10)
+[百度Web前端技术学院(2)-JavaScript 基础 之正则表达式部分1](http://xionhung.github.io/2015/04/22/baidu-ife-2-javascript/#section-10)
 
-[百度Web前端技术学院(2)-JavaScript 基础 之正则表达式部分2](http://xionhong.github.io/2015/04/22/baidu-ife-2-javascript/#section-12)
+[百度Web前端技术学院(2)-JavaScript 基础 之正则表达式部分2](http://xionhung.github.io/2015/04/22/baidu-ife-2-javascript/#section-12)
 
-[浅谈正则表达式中的分组和引用](http://xionhong.github.io/2016/05/06/regular-expression-group/)
+[浅谈正则表达式中的分组和引用](http://xionhung.github.io/2016/05/06/regular-expression-group/)
