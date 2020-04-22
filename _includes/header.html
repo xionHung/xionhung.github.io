@@ -16,7 +16,7 @@
                 </li>
 
                 {% for my_page in site.pages %}
-                    {% if my_page.type == 'page' %}
+                    {% if my_page.type == 'page' and my_page.show %}
                     <li>
                         {% if my_page.url == page.url %}
                         <a class="active" href="{{ my_page.url | prepend: site.baseurl }}">
