@@ -1,13 +1,6 @@
 # 关于这个项目的说明
 
-[![GitHub stars](https://img.shields.io/github/stars/xionHung/xionhung.github.io.svg)](https://github.com/xionHung/xionhung.github.io/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/xionHung/xionhung.github.io.svg)](https://github.com/xionHung/xionhung.github.io/network)
-[![GitHub issues](https://img.shields.io/github/issues/xionHung/xionhung.github.io.svg)](https://github.com/xionHung/xionhung.github.io/issues)
-[![GitHub release](https://img.shields.io/github/release/xionHung/xionhung.github.io.svg)](https://github.com/xionHung/xionhung.github.io/releases)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/xionHung/xionhung.github.io/master/LICENSE)
-
-
-**博客访问地址：[http://xionhung.github.io/](http://xionhung.github.io/)**。
+**博客访问地址：[http://xionhung.github.io/](http://xionhung.github.io)**。
 
 ## 目录
 
@@ -18,12 +11,9 @@
   - [分类页 Categories](#分类页-categories)
   - [标签页 Tags](#标签页-tags)
   - [收藏页 Collections](#收藏页-collections)
-  - [展示页 Demo](#展示页-demo)
   - [关于页 About](#关于页-about)
   - [评论](#评论)
   - [目录 Contents](#目录-contents)
-  - [代码高亮](#代码高亮)
-  - [灯泡效果](#灯泡效果)
   - [移动端适配](#移动端适配)
   - [Footer](#footer)
   - [统计](#统计)
@@ -44,10 +34,10 @@
 先上预览图：
 
 主页
-![index](http://ww3.sinaimg.cn/large/7011d6cfjw1f3bdli86awj211k0oyqen.jpg)
+![index](https://xionhung.github.io/blog-image/index-desc/index.png)
 
 文章页
-![post](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bdmzb9v6j210p0j7gwn.jpg)
+![post](https://xionhung.github.io/blog-image/index-desc/detail.png)
 
 ## 各部分详情
 
@@ -71,47 +61,33 @@
 
 本页是用`markdown`写的，用户可以收藏自己喜欢的文章链接。
 
-### 展示页 Demo
-
-使用 [Masonry](http://masonry.desandro.com/) 重写了瀑布流布局，响应式布局，更好的交互体验。
-
 ### 关于页 About
 
 对个人和对本站的介绍，使用`markdown`写的。
 
 ### 评论
 
-支持 [多说评论](http://duoshuo.com/) 和 [disqus](https://disqus.com/) 评论。
+使用 intensedebate 评论。
 
-只需要在 `_config.yml` 修改相应的配置`short_name`即可，如下：
+只需要在 `_config.yml` 修改相应的配置`intensedebate`即可，如下：
 
 ```yml
 # comments
-# two ways to comment, only choose one, and use your own short name
-# 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #xxx
-disqus_shortname: xxx
+# intensedebate_comments && intensedebate
+intensedebate_comments:  // 布尔值
+intensedebate:   // intensedebateid
 ```
 
 ### 目录 Contents
 
 页面滚动时目录固定在屏幕右侧，若目录高度超出屏幕高度，目录产生滚动条。
 
-### 代码高亮
-
-随着 jekyll 的升级，目前代码高亮使用风格与 github 上的 markdown 写法一致。
-
-### 灯泡效果
-
-![light](http://ww3.sinaimg.cn/large/7011d6cfjw1f3be6y4vp3j209i02rweg.jpg)
-
-可以看到导航按钮高亮时，下面的阴影效果，我把这个称为灯泡效果。
-
 ### 移动端适配
 
-完美适配移动端。
+![phone](https://xionhung.github.io/blog-image/index-desc/phone.png)
 
-![mobile](http://ww4.sinaimg.cn/large/7011d6cfjw1f3bebnzxkpj20ah0fzgp4.jpg)
+
+完美适配移动端。
 
 ### 统计
 
@@ -189,7 +165,7 @@ description_footer: 会敲点代码的熊!
 
 #### 评论信息
 
-获取`short_name`的方法：
+获取`intensedebate`的方法：
 
 访问 https://intensedebate.com
 
@@ -281,8 +257,6 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
 ```
 
 在本地访问 localhost:4000 即可看到博客主页。
-
-若安装了 Foxit 福昕 pdf 阅读器可能会占用 4000 端口，关闭 Foxit 服务 或切换 jekyll 端口即可解决。详情见文章：[对这个 jekyll 博客主题的改版和重构](http://xionhung.github.io/2016/03/12/jekyll-theme-version-2.0/)
 
 若正在使用全局代理，可能会报错 502，关闭全局代理即可。
 
