@@ -7,25 +7,24 @@ layout: default
     <h1>{{page.title}}</h1>
     <div class="label">
       <div class="label-card">
-        <i class="fa fa-calendar"></i>
+        <i class="iconfont iconrili"></i>
         {{ page.date | date: "%F" }}
       </div>
 
       <div class="label-card">
         {% if page.author %}
-        <i class="fa fa-user"></i>
+        <i class="iconfont iconabout"></i>
         {{ page.author }} {% endif %}
       </div>
       <div class="label-card">
         <p>
-          <i class="fa fa-eye fa-x"></i>
+          <i class="iconfont iconeye"></i>
           <span id="busuanzi_container_page_pv">
             <span id="busuanzi_value_page_pv"></span>
           </span>
         </p>
       </div>
-      <div class="label-card">{% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }} {% endif %}</div>
-
+      {% if page.meta %}<i class="{{ page.meta iconfont iconkey"></i>}} {% endif %}
       <div class="label-card">
         {% include category.html %}
       </div>
