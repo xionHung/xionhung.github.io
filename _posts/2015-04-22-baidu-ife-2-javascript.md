@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "百度Web前端技术学院(2)-JavaScript 基础"
-date:   2015-04-22 19:06:05
+title:  "Web前端-JavaScript 基础"
 categories: JavaScript
 tags: Baidu ife JavaScript 正则 Regular
 ---
@@ -1563,21 +1562,8 @@ function OnPropChanged(event) {
 
 我在这里没有使用 html5 中的拖拽 API，所以兼容性还是很好的。
 
-### 实现
 
-* [代码](https://github.com/xionHung/ife/tree/master/task/task0002/work/xionHung)
-* [在线demo](http://xionhung.github.io/ife/task/task0002/work/xionHung/task0002_5.html)
-
-
-## 最终作品
-
-* [代码](https://github.com/xionHung/ife/tree/master/task/task0002/work/xionHung)
-* [在线 Demo](http://xionhung.github.io/ife/task/task0002/work/xionHung/index.html)
-
-
-## Update
-
-**2015/06/01**
+## END
 
 * [导师的参考答案](https://github.com/hushicai/ife-task0002)
 * [review](https://github.com/baidu-ife/ife/tree/master/task/task0002/review)

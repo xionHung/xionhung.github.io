@@ -1,33 +1,24 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
-icon: heart
+icon: iconabout
 type: page
 ---
 
 - content
-  {:toc}
+{:toc}
 
-## 关于我
+## 合作
 
-<!-- <iframe src="https://githubbadge.appspot.com/xionhong?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe> -->
-
+**如果你这边有需要制作`网站`、`H5`或者`小程序`的，欢迎联系我~**  
 
 ## 联系我
 
-- GitHub：[xionHung](https://github.com/xionHung)
-- email：xionhong@foxmail.com
-- [Weibo](https://weibo.com/u/3178561351)
+- GitHub：[github.com/xionHung](https://github.com/xionHung)
+- Email：xionhong@foxmail.com
+- 新浪微博：[Hong熊](https://weibo.com/u/3178561351)
 
-## 关于本站
-
-**若您想使用这个 jekyll 博客主题，请访问：[https://github.com/xionHung/xionhung.github.io](https://github.com/xionHung/xionhung.github.io)**
-
-~欢迎使用~
-
-欢迎大家提一些对本站的建议，可以直接在下面留言或者新建一个 [Issue](https://github.com/xionHung/xionhung.github.io/issues)。
-
-## Comments
+## 留言
 
 {% include comments.html %}
