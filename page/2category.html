@@ -19,14 +19,16 @@ show: true
         <time>
           {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
         </time>
-        <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="title" href="{{ post.url | prepend: site.baseurl }}"
+          >{{ post.title }}</a
+        >
 
         {% include category.html %} {% include tag.html %}
       </li>
       {% endif %} {% endfor %} {% endfor %} {% endfor %}
     </ul>
   </div>
-  <button class="anchor"><i class="iconfont iconabout"></i></button>
+  <button class="anchor"><i class="iconfont iconanchor"></i></button>
   <div class="right">
     <div class="wrap">
       <!-- Content -->
@@ -49,4 +51,7 @@ show: true
     </div>
   </div>
 </div>
-<script src="{{ '/js/pageContent.js' | prepend: site.baseurl }}" charset="utf-8"></script>
+<script
+  src="{{ '/js/pageContent.js' | prepend: site.baseurl }}"
+  charset="utf-8"
+></script>
