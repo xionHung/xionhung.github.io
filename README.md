@@ -84,7 +84,7 @@ intensedebate:   // intensedebateid
 
 ### 移动端适配
 
-![phone](https://xionhung.github.io/blog-image/index-desc/phone.png)
+![phone](https://xionhung.github.io/blog-image/index-desc/phone.jpg)
 
 
 完美适配移动端。
@@ -144,8 +144,8 @@ gem install jekyll
 
 ```yml
 # Site settings
-title: xionHong技术专栏
-brief-intro: Front-end Dev Engineer
+title: 会敲点代码的熊
+brief-intro: 前端
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://xionhung.github.io" # the base hostname & protocol for your site
 ```
@@ -159,7 +159,6 @@ url: "http://xionhung.github.io" # the base hostname & protocol for your site
 github_username: xionHung
 email: xionhong@foxmail.com
 weibo_username: 3178561351 #Hong熊
-
 description_footer: 会敲点代码的熊!
 ```
 
@@ -202,11 +201,10 @@ google_analytics_id: UA-72449510-4 # google 分析追踪id
 ```
 ---
 layout: post
-title:  "对这个 jekyll 博客主题的改版和重构"
-date:   2016-03-12 11:40:18 +0800
-categories: jekyll
-tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
-author: Haoyang Gao
+title:  "Markdown的语法"
+categories: Markdown
+tags: markdown
+author: xionhong
 mathjax: true
 ---
 ```
