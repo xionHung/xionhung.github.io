@@ -95,6 +95,13 @@ author: xionhong
 
     npm config set registry https://registry.npm.taobao.org
 
+### npm缓存腐败
+
+    npm cache clean --force
+
+> - **问题情景：**可能是你删除node_modules，或者重新clone代码后，npm i的时候报错
+> - **解决：**执行`npm cache clean --force`，如果执行后，npm i 还是报错的话，就删除package-lock.json再重新尝试一下~
+
 ## 总结
 
 > 以上就是我收集且比较常用到的npm指令，作为记录，也希望能帮助到你~
