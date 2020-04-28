@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "npm的一些基本常用指令"
-categories: npm
+categories: Npm
 tags:  npm 
 author: xionhong
 ---
